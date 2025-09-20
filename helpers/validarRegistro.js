@@ -23,8 +23,8 @@ arregloInputs.map(input => {
                 break;
                  case "documento":
                 if(expresiones.numero.test(e.target.value)){
-                    e.target.classList.add("correcto")
-                    e.target.classList.remove("incorrecto")
+                    e.target.classList.add("correcto ")
+                    e.target.classList.remove("incorrecto ")
                 } else {
                     e.target.classList.add("incorrecto")
                     e.target.classList.remove("correcto")
